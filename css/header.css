@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 3.2rem;
+    height: 8rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav-item {
+    padding-right: 3.2rem;
+    font-size: 1.6rem;
+    font-style: 500;
+}
+
+.login-button {
+    font-family: var(--fonte-principal);
+    border-style: none;
+    background: transparent;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem 1.8rem;
+    border-radius: .8rem;
+}
+
+.login-container .login-button:nth-of-type(2) { /* Estilos para o segundo botão (Cadastrar) */
+    background-color: var(--cor-vinho);
+    color: var(--branco);
+}
