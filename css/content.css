@@ -1,3 +1,5 @@
+/* MÉTRICAS */
+
 .metrics-container {
     display: flex;
     justify-content: center;
@@ -30,4 +32,42 @@
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--cinza);
+}
+
+/* VAGAS */
+
+.jobs-container {
+    padding-top: 9.6rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.0rem;
+}
+
+.jobs-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--cor-vinho);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.4rem 1.2rem;
+}
+
+.jobs-main-title {
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.jobs-description {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.jobs-img {
+    margin-bottom: 6.4rem;
+    width: 1216px;
+    height: 400px;
 }
