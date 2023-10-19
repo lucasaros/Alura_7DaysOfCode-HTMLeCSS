@@ -36,7 +36,8 @@
 
 /* VAGAS */
 
-.jobs-container {
+.jobs-container,
+.jobs-talents {
     padding-top: 9.6rem;
 
     display: flex;
@@ -46,28 +47,67 @@
     gap: 2.0rem;
 }
 
-.jobs-title {
+.jobs-talents-title {
     font-size: 1.4rem;
     font-weight: 500;
     color: var(--cor-vinho);
     background: rgba(142, 36, 36, 0.05);
-    border-radius: 16px;
+    border-radius: 1.6rem;
     padding: 0.4rem 1.2rem;
 }
 
-.jobs-main-title {
+.jobs-talents-main-title {
     font-size: 3.6rem;
     font-weight: 600;
 }
 
-.jobs-description {
+.jobs-talents-description {
     font-size: 2rem;
     font-weight: 400;
     color: var(--cinza);
 }
 
-.jobs-img {
+.jobs-talents-img {
     margin-bottom: 6.4rem;
     width: 1216px;
     height: 400px;
+}
+
+
+.jobs-category {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+    width: 50vw;
+    padding-bottom: 6.6rem;
+}
+
+
+
+.jobs-category-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.jobs-details-title {
+    font-size: 1.6rem;
+}
+
+.jobs-details {
+    border: .1rem solid var(--cinza-claro);
+    border-radius: 1rem;
+    padding: 2.4rem 2.4rem 2.8rem 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3.2rem;
+}
+
+.jobs-details-description {
+    font-size: 2rem;
+
+    display: flex;
+    gap: 2.4rem;
 }
